@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <title>Zeldrizz Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header" id="home">
+        <div class="header__content">
+            <h3 class="header__text">Привет! Меня зовут Марат Тактаров</h3>
+            <h1 class="header__title">Я Full Stack Web Developer</h1>
+            <h3 class="header__text">я создаю различные сайты на заказ</h3>
+        </div>
+
+        <nav class="nav">
+            <a href="#!" class="nav__logo">Zeldrizz Web-Dev</a>
+            <ul class="nav__list">
+                <li><a href="#home" class="nav__list-link">На главную</a></li>
+                <li><a href="#service" class="nav__list-link">Мои услуги</a></li>
+                <li><a href="#opportunity" class="nav__list-link">Мои возможности</a></li>
+                <li><a href="#works" class="nav__list-link">Мои работы</a></li>
+                <li><a href="#feedback" class="nav__list-link">Отзывы</a></li>
+                <li><a href="#about" class="nav__list-link">Обо мне</a></li>
+                <li><a href="#contact" class="nav__list-link">Контакты</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="header__scroll">
+            <div class="header__scroll-item">
+                <a href="#service"><i class="fas fa-angle-double-down item"></i></a>
+            </div>
+        </div> -->
+    </header>
+
+    <div class="cover">
+        <button class="cover__btn"><i class="fas fa-times close-btn"></i></button>
+        <div class="cover__window"></div>
+    </div>
+
+    <main class="main">
+        <section class="service" id="service">
+            <div class="service__content">
+
+                <div class="services">
+                    <h2 class="services__title">
+                        Мои услуги
+                    </h2>
+                    <div class="line"></div>
+                    <p class="services__text">Вёрстка сайтов на заказ, создаю интерактивные сайты, есть опыт работы с
+                        созданием интернет магазинов и
+                        веб приложений, также пишу игры на JavaScript.
+                    </p>
+                    <p class="services__undertitle">Я могу</p>
+                    <div class="cards">
+                        <div class="card">
+                            <a href="#!" class="card__item"><i class="fas fa-puzzle-piece"></i></a>
+                            <h3 class="card__title">Сделать интерактивный сайт</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat
+                                consequatur voluptatum culpa, facere suscipit voluptate! Repudiandae ullam animi
+                                laudantium?
+                            </p>
+                        </div>
+                        <div class="card">
+                            <a href="#!" class="card__item"><i class="fas fa-calendar-check"></i></a>
+                            <h3 class="card__title">Сделать веб приложение</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat
+                                consequatur voluptatum culpa, facere suscipit voluptate! Repudiandae ullam animi
+                                laudantium?
+                            </p>
+                        </div>
+                        <div class="card">
+                            <a href="#!" class="card__item"><i class="fas fa-shopping-basket"></i></a>
+                            <h3 class="card__title">Сделать интернет магазин</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat
+                                consequatur voluptatum culpa, facere suscipit voluptate! Repudiandae ullam animi
+                                laudantium?
+                            </p>
+                        </div>
+                        <div class="card">
+                            <a href="#!" class="card__item"><i class="fas fa-gamepad"></i></a>
+                            <h3 class="card__title">Сделать вам игру</h3>
+                            <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe placeat
+                                consequatur voluptatum culpa, facere suscipit voluptate! Repudiandae ullam animi
+                                laudantium?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="opportunities" id="opportunity">
+            <div class="opportunities__content">
+                <h2 class="opportunity__title">Мои возможности</h2>
+                <div class="line"></div>
+
+                <p class="opportunity__text">Я использую различные фреймворки как Bootstrap, Jquery, Node.js</p>
+
+                <div class="lines">
+                    <div class="lines__tube">
+                        <h3 class="lines__tube-title">HTML5 <i class="fab fa-html5 sign1"></i></h3>
+                        <div class="lines__tibe-line"></div>
+                    </div>
+                    <div class="lines__tube">
+                        <h3 class="lines__tube-title">CSS3 <i class="fab fa-css3-alt sign2"></i></h3>
+                        <div class="lines__tibe-line"></div>
+                    </div>
+                    <div class="lines__tube">
+                        <h3 class="lines__tube-title">JavaScript <i class="fab fa-js sign3"></i></h3>
+                        <div class="lines__tibe-line2"></div>
+                    </div>
+                    <div class="lines__tube">
+                        <h3 class="lines__tube-title">Python <i class="fab fa-python sign4"></i></h3>
+                        <div class="lines__tibe-line3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="works" id="works">
+            <div class="works__content">
+                <h2 class="works__content-title">Мои работы</h2>
+                <div class="line"></div>
+
+                <div class="list">
+                    <button class="list__btn" data-filter="all">Всё</button>
+                    <button class="list__btn" data-filter="lending">Лендинг</button>
+                    <button class="list__btn" data-filter="shop">Интернет магазины</button>
+                    <button class="list__btn" data-filter="app">Веб приложения</button>
+                    <button class="list__btn" data-filter="game">Игры</button>
+                </div>
+
+                <div class="works__cards">
+                    <div class="works__card" data-filter="lending">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img1.png" alt="">
+                            <a href="http://jquery.page2page.ru/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+                    <div class="works__card" data-filter="shop">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img3.png" alt="">
+                            <a href="https://zeldrizz.github.io/Street66/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+                    <div class="works__card" data-filter="app">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img1.png" alt="">
+                            <a href="http://jquery.page2page.ru/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+                    <div class="works__card" data-filter="app">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img1.png" alt="">
+                            <a href="http://jquery.page2page.ru/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+                    <div class="works__card" data-filter="game">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img2.png" alt="">
+                            <a href="http://zeldrizz.github.io/dino-game-beta/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+                    <div class="works__card" data-filter="lending">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img1.png" alt="">
+                            <a href="http://jquery.page2page.ru/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+                    <div class="works__card" data-filter="shop">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img1.png" alt="">
+                            <a href="http://jquery.page2page.ru/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+                    <div class="works__card" data-filter="lending">
+                        <div class="works__card-child">
+                            <img class="works__card-img" src="img/work__img1.png" alt="">
+                            <a href="http://jquery.page2page.ru/" class="works__link">Посмотреть</a>
+                        </div>
+                        <!-- <a href="#!" class="work__card-link"><i class="fas fa-eye hover__icon"></i></a> -->
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="feedbacks" id="feedback">
+            <div class="feedbacks__content">
+                <h2 class="feedback__title">Отзывы</h2>
+                <div class="line"></div>
+                <p class="feedback__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores molestiae
+                    officiis commodi minus est? Quod velit, autem temporibus quas dolore cum ipsa vitae</p>
+
+                <div class="comment">
+                    <div class="min__comment">
+                        <p class="comment__text">Мне повезло работать с Маратом. Не очень дорого и быстро сделал мней
+                            сайт-блог. Очень благодарна ему.</p>
+                        <p class="comment__undertitle">- Исламова Марьям</p>
+                    </div>
+                    <img src="img/comment__img.jpg" alt="" class="comment__img">
+                </div>
+
+                <div class="comment2">
+                    <div class="min__comment">
+                        <p class="comment__text">Он довольно за короткое время сделал нам интерактивный интернет
+                            магазин, благодаря ему мы
+                            развили свой бренд "Цените Мать"
+                        </p>
+                        <p class="comment__undertitle">- Ekatze007 и Бустер</p>
+                    </div>
+                    <img src="img/comment__img2.jpg" alt="" class="comment__img">
+                </div>
+
+                <div class="panel">
+                    <div class="panel__content">
+                        <button id="prev" class="panel__btn"><i class="fas fa-angle-left angel-btn"></i></button>
+                        <button id="next" class="panel__btn"><i class="fas fa-angle-right angel-btn"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about__content">
+                <h2 class="about__title">Немного обо мне</h2>
+                <div class="line"></div>
+                <p class="about__text">Я уже около года в сфере веб программирования. При созднии сайтов активно
+                    использую фреймворки.
+                    У меня много свободного времени, так что я могу сделать ваш заказ за короткие сроки. В данное время
+                    являюсь учеником
+                    центра Proweb курса веб программирования.
+                </p>
+
+                <div class="sales">
+                    <h3 class="sales__title">Акции</h3>
+                    <p class="sales__text">Нажмите на кнопку чтобы получить сюрприз!</p>
+                    <button class="sales__btn">Нажмите сюда</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="footer__content">
+            <p class="footer__text">Связаться со мной</p>
+            <div class="footer__media">
+                <a href="" class="footer__media-link"><i class="fab fa-instagram media__item"></i></a>
+                <a href="" class="footer__media-link"><i class="fab fa-telegram-plane media__item"></i></a>
+                <a href="" class="footer__media-link"><i class="far fa-envelope media__item"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
